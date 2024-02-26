@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab Two</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            width: 100%;
+        }
+        .navbar h2 {
+            margin: 0; 
+        }
+        .navbar-links {
+            display: flex;
+            gap: 20px;
+        }
+        .navbar-links a {
+            text-decoration: none;
+            color: white;
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: auto;
+            width: 100%;
+            position: bottom;
+        }
+        #img1 {
+            width: 600px;
+            height: 400px;
+            display: block;
+            padding: 10px;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            max-width: 1200px;
+            margin-top: 10px;
+            padding: 50px;
+        }
+        article {
+            border: 1px solid black;
+            padding: 10px;
+            margin-top: 10px;
+             
+        }
+        .articleOne {
+            border: 0px;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        article img {
+            width: 600px;
+            height: 400px;
+            margin-bottom: 1px;
+        }
+        article h2 {
+            margin-top: 0;
+            text-align: center;
+        }
+        article p {
+            margin-bottom: 0;
+            text-align: center;
+        }
+        section {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-top: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <h2>Welcome to Software Design Website</h2>
+        <nav class="navbar-links">
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article class = "articleOne">
+                <h2>About Us</h2>
+                <p >We are a company dedicated to performing excellent services to our customers.</p>
+                <img src="about_us.png" alt="About Us">
+            </article>
+        </section>
+        <h3 style="text-align: center;">Our Services</h3>
+        <section>
+            <article>
+                <h2>Web Development</h2>
+                <p>We specialize in creating responsive and user-friendly websites.</p>
+                <img src="web_development.jpg" alt="web_development">
+            </article>
+            <article>
+                <h2>Graphic Design</h2>
+                <p>Our talented designers can bring your ideas to life with stunning visuals.</p>
+                <img src="graphic_design.png" alt="graphic_design">
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        &copy; The Lucky Company. All rights reserved
+    </footer>
+</body>
+</html>
